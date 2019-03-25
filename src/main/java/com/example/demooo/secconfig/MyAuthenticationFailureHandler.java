@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Component("myAuthenctiationFailureHandler")
-public class myAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
+public class MyAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
 
     private Logger logger = Logger.getLogger(this.getClass());
 
